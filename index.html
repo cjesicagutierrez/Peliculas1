@@ -1,0 +1,67 @@
+<!-- control + k + u -->
+<!-- PONER LAS CLASS EN ESPAÑOL O INGLES NO MEZCLAR -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAC-MOVIES</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <!-- agrego a las google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_logo">
+            <a href="#" class="header_logo_link">
+                <i class="fa-solid fa-film"></i>
+                Cac-movies
+            </a>
+        </div>
+        <div class="header_menu">
+            <a href="Tendencias">Tendencias</a>
+            <a href="Registrarse">Registarse</a>
+            <a href="Iniciar Sesion" id="header_menu_login">
+                Iniciar Sesion
+            </a>
+        </div>
+        <!-- <div class="burguer"> 
+            ---
+        </div>-->
+    </header>
+
+    <main>
+        <section class="main-flex">
+            <h1 class="main_titulo texto-blanco ubuntu-bold">
+                Peliculas y series ilimitadas <br> en un solo lugar
+            </h1>
+            <h2 class="main_subtitulo texto-blanco ubuntu-medium">
+                Disfruta donde quieras. <br>Cancela en cualquier momento
+            </h2>
+            <a class="texto-blanco main_btn_registrarse" href="./html/registrarse.html">Registrarse</a>
+           
+        </section>
+        <section class="busqueda">
+            <h2 class="ubuntu-medium">¿Qué estas buscando para ver?</h2>
+            <form class="busqueda_form" id="busqueda_form">
+                <input type="search" placeholder="buscar..." class="input_search">
+                <button class="btn_busqueda">
+                    Buscar
+                </button>
+            </form>
+            <hr>
+        </section>
+    </main>
+    <a class="elemento_fijo" href="#">
+        <i class="fa-solid fa-circle-chevron-up"></i>
+    </a> 
+    
+    <script src="https://kit.fontawesome.com/3ecf0dcc6b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
